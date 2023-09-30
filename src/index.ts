@@ -36,15 +36,34 @@
 // }
 
 // Type object 
-let employee: {
-    readonly id: number,
-    name: string,
-    retire: (date: Date) => void
-} = { 
+// let employee: {
+//     readonly id: number,
+//     name: string,
+//     retire: (date: Date) => void
+// } = { 
+//     id: 1, 
+//     name: 'ricardo',
+//     retire: (date: Date) => {
+//         console.log(date);
+        
+//     }
+//  };
+
+ // Advannced types 
+ // 1- Type aliases
+ type Employee = {
+     readonly id: number,
+     name: string,
+     retire: (date: Date) => void
+     
+}
+
+let employee:  Employee = {
+
     id: 1, 
     name: 'ricardo',
     retire: (date: Date) => {
-        console.log(date);
+    console.log(date);
         
     }
  };
