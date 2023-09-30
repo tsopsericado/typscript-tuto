@@ -34,3 +34,17 @@
 //     return income * 1.2  
 //     return income * 1.3
 // }
+
+// Type object 
+let employee: {
+    readonly id: number,
+    name: string,
+    retire: (date: Date) => void
+} = { 
+    id: 1, 
+    name: 'ricardo',
+    retire: (date: Date) => {
+        console.log(date);
+        
+    }
+ };
