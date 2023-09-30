@@ -22,3 +22,10 @@
 //Type Tuples
 //here 
 // let user: [ number, string] = [ 1, 'Ricardo']
+
+//Type Enums
+// const enum Size { Small = 1, Meduim, Large };
+// let mysize: Size = Size.Meduim;
+// console.log(mysize);
+
+
