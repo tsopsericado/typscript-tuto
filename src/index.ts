@@ -16,5 +16,9 @@
 
 //Type Arrays
 
-let numbers: number[] = []
-numbers.forEach( n => n.) 
+// let numbers: number[] = []
+// numbers.forEach( n => n.) 
+
+//Type Tuples
+//here 
+// let user: [ number, string] = [ 1, 'Ricardo']
