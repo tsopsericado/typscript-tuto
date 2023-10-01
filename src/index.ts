@@ -104,13 +104,26 @@
 //  type Metric = "cm" | "inch"
 
 // Nullify values 
-function greet(name: string | null | undefined){
+// function greet(name: string | null | undefined){
 
-    if ( name ) 
-    console.log(name.toUpperCase);
-else 
-console.log("hola");
+//     if ( name ) 
+//     console.log(name.toUpperCase);
+// else 
+// console.log("hola");
+// }
+
+
+// greet (undefined);
+
+// Optional chaining 
+type Customer  = {
+    birthday: Date
+};
+
+function getCustomers(id: number): customer : number | undefined  {
+ return id === 0 ? null : { birthday: new Date};
 }
 
-
-greet (undefined);
+let customer = getCustomers(1)
+//optional property access operator
+console.log(customer.birthday);
